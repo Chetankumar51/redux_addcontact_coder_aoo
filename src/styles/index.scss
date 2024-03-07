@@ -1,0 +1,15 @@
+$theme-colors: (
+  "primary": #6200ea,
+  "success": #33691e,
+  "danger": #f50057,
+  "warning": #ffab00
+);
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "~bootstrap/scss/bootstrap";
+
+
+body {
+  padding-top: 5rem;
+}
